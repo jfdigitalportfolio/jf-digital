@@ -124,3 +124,34 @@
   }
   .jf-form { padding: 22px; }
 }
+
+/* JF Digital contact section fixes */
+
+#contact {
+  position: relative;
+  z-index: 1;
+  scroll-margin-top: 110px;
+}
+
+.jf-contact {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 650px;
+}
+
+.jf-contact * {
+  box-sizing: border-box;
+}
+
+.jf-form input,
+.jf-form select,
+.jf-form textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+}
+
+.jf-form textarea {
+  resize: vertical;
+  min-height: 140px;
+}
