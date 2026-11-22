@@ -12,6 +12,49 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
+<section id="contact" class="jf-contact">
+  <div class="jf-contact-heading">
+    <span class="jf-eyebrow">JF DIGITAL / CONTACT</span>
+    <h2>LET'S CREATE<br><em>SOMETHING GREAT.</em></h2>
+    <p>Have a website in mind? Tell us about your vision.</p>
+    <a class="jf-email" href="mailto:YOUR_EMAIL@example.com">
+      EMAIL JF DIGITAL ↗
+    </a>
+  </div>
+
+  <form class="jf-form"
+    action="https://formspree.io/f/xljboeyd"
+    method="POST">
+
+    <label for="jf-name">YOUR NAME</label>
+    <input id="jf-name" type="text" name="name"
+      placeholder="Your full name" required>
+
+    <label for="jf-email">EMAIL ADDRESS</label>
+    <input id="jf-email" type="email" name="email"
+      placeholder="jacobfrancis7@hotmail.com" required>
+
+    <label for="jf-type">PROJECT TYPE</label>
+    <select id="jf-type" name="project_type" required>
+      <option value="">Select a service</option>
+      <option>Business Website</option>
+      <option>Portfolio Website</option>
+      <option>Website Redesign</option>
+      <option>Other Project</option>
+    </select>
+
+    <label for="jf-message">YOUR PROJECT</label>
+    <textarea id="jf-message" name="message"
+      rows="5" placeholder="Tell us about your idea..."
+      required></textarea>
+
+    <button type="submit">SEND ENQUIRY ↗</button>
+    <p class="jf-privacy">
+      Your details will only be used to respond
+      to your enquiry.
+    </p>
+  </form>
+</section>
 <body>
   <div class="progress" aria-hidden="true"></div>
   <header class="site-header" id="top">
