@@ -133,7 +133,38 @@
       <div class="section-kicker reveal"><span>04</span> / GET IN TOUCH</div>
       <h2 class="reveal">GOT AN IDEA?<br><span class="gold">LET'S BUILD IT.</span></h2>
       <p class="contact-intro reveal">Planning a new website or thinking about a redesign? Tell me what you're working on.</p>
-      <div class="contact-actions reveal"><button class="primary-button" id="copy-email" type="button" disabled title="Add your business email address in script.js to enable this button">CONTACT DETAILS COMING SOON <span aria-hidden="true">↗</span></button><p id="contact-status" role="status">Business contact details will be added before enquiries open.</p></div>
+      
+<div class="contact-actions reveal">
+  <a href="mailto:YOUR_EMAIL@example.com" class="primary-button">
+    EMAIL JF DIGITAL ↗
+  </a>
+
+  <form class="jf-form"
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST">
+
+    <label for="name">YOUR NAME</label>
+    <input id="name" type="text" name="name" required>
+
+    <label for="email">EMAIL ADDRESS</label>
+    <input id="email" type="email" name="email" required>
+
+    <label for="project">PROJECT TYPE</label>
+    <select id="project" name="project_type" required>
+      <option>Business Website</option>
+      <option>Portfolio Website</option>
+      <option>Website Redesign</option>
+      <option>Other</option>
+    </select>
+
+    <label for="message">YOUR PROJECT</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button class="primary-button" type="submit">
+      SEND ENQUIRY ↗
+    </button>
+  </form>
+</div>
       <div class="contact-bottom"><span>JF DIGITAL © <span id="year">2026</span></span><span>INDEPENDENT WEB DESIGN / UK</span><a href="#top">BACK TO TOP ↑</a></div>
     </section>
   </main>
